@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+}
+.board {
+  margin: 100px auto 0;
+  border-collapse: collapse;
+}
+
+.board td {
+  background-color: gray;
+  border: 2px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.board td:hover {
+  background-color: #c3c3c3;
+}

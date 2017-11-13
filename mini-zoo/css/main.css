@@ -1,0 +1,65 @@
+* {
+  text-align: center;
+}
+
+h1 {
+
+  font-size: 60px;
+  margin: 20px 0;
+  font-family: 'Purple Purse';
+  background:  linear-gradient(to bottom, rgba(23,23,235,1) 0%, rgba(23,23,235,1) 4%, rgba(43,43,43,1) 20%, rgba(3,3,237,1) 32%, rgba(43,43,43,1) 49%, rgba(42,4,196,1) 60%, rgba(43,43,43,1) 77%, rgba(43,43,43,1) 77%, rgba(23,23,235,1) 90%, rgba(23,23,235,1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.option {
+  margin-bottom: 20px;
+}
+
+select {
+  display: inline-block;
+  background: #0bf;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+select, option {
+  background-image: url(../assets/images/fondo.jpg);
+}
+
+.container {
+  width: 1000px;
+  display: inline-block;
+}
+
+.animal {
+  width: 300px;
+  height: 300px;
+  margin: 0;
+}
+
+img {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.origin {
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.negative-colors {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.sepia {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+}
+
+.black-white {
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+}
